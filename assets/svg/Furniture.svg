@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6b15c"/>
+      <stop offset="1" stop-color="#fff84e"/>
+    </linearGradient>
+    <filter id="Ellipse_6" x="0" y="0" width="110" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#d59f26" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.518"/>
+    </linearGradient>
+    <filter id="Path_67" x="27.008" y="42.453" width="56.983" height="39.589" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#ff8900" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_68" x="34.317" y="24.117" width="42.366" height="40.935" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#ff8900" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Furniture" transform="translate(22.5 14.5)">
+    <g id="icon" transform="translate(-198 -140)">
+      <g transform="matrix(1, 0, 0, 1, 175.5, 125.5)" filter="url(#Ellipse_6)">
+        <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="32.5" cy="32.5" r="32.5" transform="translate(22.5 14.5)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="_002-armchair-silhouette" data-name="002-armchair-silhouette" transform="translate(210.928 150.617)">
+        <g id="Group_127" data-name="Group 127" transform="translate(0.58)">
+          <g id="Group_126" data-name="Group 126">
+            <g transform="matrix(1, 0, 0, 1, -36.01, -25.12)" filter="url(#Path_67)">
+              <path id="Path_67-2" data-name="Path 67" d="M35.5,22.577a6.5,6.5,0,0,0-6.5,6.5v1.187a26.968,26.968,0,0,0-8.934-1.187,26.972,26.972,0,0,0-8.934,1.187V29.074a6.5,6.5,0,0,0-6.5-6.5,4.061,4.061,0,0,0-1.56,7.811,1.214,1.214,0,0,1,.748,1.123l.812,3.249a5.693,5.693,0,0,0,5.04,5.646,1.981,1.981,0,1,0,1.77.037H28.7a1.979,1.979,0,1,0,1.769-.037A5.693,5.693,0,0,0,35.5,34.76l.812-3.249a1.216,1.216,0,0,1,.748-1.123A4.061,4.061,0,0,0,35.5,22.577Z" transform="translate(35.43 20.88)" fill="url(#linear-gradient-2)"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -36.01, -25.12)" filter="url(#Path_68)">
+              <path id="Path_68-2" data-name="Path 68" d="M15.062,22.935a37.432,37.432,0,0,1,6.7-.538,37.431,37.431,0,0,1,6.7.538,8.959,8.959,0,0,1,5.483-6.417V12.183a12.183,12.183,0,0,0-24.366,0v4.336A8.96,8.96,0,0,1,15.062,22.935Z" transform="translate(33.74 25.12)" fill="url(#linear-gradient-2)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
